@@ -17,3 +17,4 @@ This app depends on https://newsapi.org/ website.
 9- Unit Test: using JUnit.
 10- Clean Architecture: data layer, domain layer, di layer, presentation layer.
 11- Bottom Navigation View.
+12- Added ignored files to .ignore.
