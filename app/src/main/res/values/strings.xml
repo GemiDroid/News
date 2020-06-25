@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">الاخبار</string>
+    <string name="date">بتاريخ:  %s</string>
+    <string name="writtenBy">كتب بواسطة:  %s</string>
+    <string name="home">الرئيسية</string>
+    <string name="second">الثانية</string>
+    <string name="last">الاخيره</string>
+    <string name="no_internet_connection">لا يوجد اتصال بالانترنت</string>
+    <string name="unknown_error">خطأ غير معروف</string>
+</resources>

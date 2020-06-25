@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.gemidroid.news.presentation.ui.fragments.HomeFragment"
+        android:label="@string/home" />
+
+    <fragment
+        android:id="@+id/second"
+        android:name="com.gemidroid.news.presentation.ui.fragments.SecondFragment"
+        android:label="@string/second" />
+
+    <fragment
+        android:id="@+id/last"
+        android:name="com.gemidroid.news.presentation.ui.fragments.LastFragment"
+        android:label="@string/last" />
+</navigation>
