@@ -1,6 +1,6 @@
 # News app:
 This app depends on https://newsapi.org/ website.
-# Get Start:
+# Get started:
 1- Create an account, you will get Api key to hit on APIs.
 2- Choose on each country to get news in it.
 3- Browse fetched data in JSON Format.
