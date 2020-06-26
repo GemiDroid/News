@@ -25,4 +25,8 @@ class GetNewsViewModel(private var getArticlesUseCase: GetArticlesUseCase): View
 
     fun isLoading(): MutableLiveData<Boolean> = getArticlesUseCase.isLoading
 
+    override fun onCleared() {
+        super.onCleared()
+        getArticlesUseCase.onDestroy()
+    }
 }

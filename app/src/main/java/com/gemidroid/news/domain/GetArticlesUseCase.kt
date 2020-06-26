@@ -37,6 +37,11 @@ class GetArticlesUseCase(
         )
     }
 
+    fun onDestroy(){
+        if (!compositeDisposable.isDisposed)
+               compositeDisposable.dispose()
+    }
+
     private val addedList= mutableListOf<Articles>()
     var isLoading = MutableLiveData<Boolean>()
     val getAllArticles = MutableLiveData<List<Articles>>()
